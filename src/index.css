@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=BioRhyme:wght@200..800&family=Bokor&family=Castoro+Titling&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Koh+Santepheap:wght@100;300;400;700;900&family=Rakkas&display=swap');
+
+* {
+  padding: 0;margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+
+:root {
+  --primary-color: #a99c70;
+  --primary-color-hover: #4f4432;
+  --background-color: #2b2318;
+}
+
+
+
+
+ .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+  --bs-offcanvas-bg: #2b2318 !important;
+  /* --bs-offcanvas-bg: transparent !important; */
+  --bs-offcanvas-border-width: var(--bs-border-width);
+  --bs-offcanvas-border-color: #a99c70 !important;
+} 
+
+
+.dashboard {
+  background: rgb(79,68,50);
+  
+}
+
+
+
+.ant-drawer-content-wrapper {
+  height: 50% !important;
+}
+
+
+
+.ant-drawer-body {
+  padding: 0px !important;
+}
+
+.ant-drawer-header {
+  display: none !important;
+}
+
+.ant-modal-content {
+  background-color:#a99c70 !important;
+}
+
+.ant-modal-header {
+  background-color: #a99c70 !important;
+
+}
+
+.ant-modal-title {
+  color:#2b2318 !important;
+  width: auto;
+}
+
+.ant-modal-close-x {
+  color: white !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color-hover); 
+  height: 300px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--background-color); 
+}
+
