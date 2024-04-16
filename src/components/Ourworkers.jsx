@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from '../assets/logotc.png'
 import { Image, Tooltip } from "antd";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import p1 from '../assets/p (1).jpg'
 import p2 from '../assets/p (2).jpg'
 import p3 from '../assets/p (3).jpg'
@@ -48,6 +48,8 @@ import Footer from "./Footer";
 
 
 const Ourworkers = () => {
+
+  const navigate = useNavigate();
 
   const gallery = [
     {photo: p1},
@@ -201,11 +203,11 @@ const Ourworkers = () => {
         </div>
             
             <div className="d-flex justify-content-center m-5">
-            <Link to={"/tc"}>
-      <button className='interiorBtn' style={{boxShadow: "10px 5px 0.6rem black"}}>
+           
+      <button className='interiorBtn' onClick={() => navigate('/tc')} style={{boxShadow: "10px 5px 0.6rem black"}}>
           Go to Home
         </button>
-      </Link>
+      
             </div>
       <Footer />
       </div>

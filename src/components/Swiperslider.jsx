@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext} from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -25,11 +25,6 @@ import swiper7 from '../assets/simg7.jpg'
 
 export default function SwiperSlider() {
   
-  const [read, setRead] = useState(false);
-
-  const handleRead = () => {
-    setRead(!read);
-  }
 
   const {handleSection} = useContext(sectionStore)
 
