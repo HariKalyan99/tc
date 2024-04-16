@@ -127,7 +127,7 @@ const Workgallery = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center m-5">
-      <Link to={"/worker-gallery"}>
+      <Link to={"/tc/worker-gallery"}>
       <button className='interiorBtn' style={{boxShadow: "10px 5px 0.6rem black"}}>
           Go to gallery
         </button>

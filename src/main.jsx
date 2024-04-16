@@ -11,10 +11,10 @@ import PageNotFound from './components/PageNotFound.jsx';
 import Ourworkers from './components/Ourworkers.jsx';
 
 const router = createBrowserRouter([
-  {path: "/", element: <App />, children: [
-    {path: "/", element: <Dashboard />},
-    {path: "/sections", element: <Sections />},
-    {path: "worker-gallery", element: <Ourworkers />},
+  {path: "/tc", element: <App />, children: [
+    {path: "/tc", element: <Dashboard />},
+    {path: "/tc/sections", element: <Sections />},
+    {path: "/tc/worker-gallery", element: <Ourworkers />},
     {path: "*", element: <PageNotFound />}
   ]}
 ])

@@ -37,7 +37,7 @@ const Sections = () => {
     <div >
         <nav className="navbar navbar-expand-md  sticky-top" data-bs-theme="dark" style={{backgroundColor: "var(--background-color)", border: "3px solid var(--primary-color)"}}>
   <div className="container-fluid ">
-    <Link className="navbar-brand d-flex justify-content-start px-2" to={"/"}>
+    <Link className="navbar-brand d-flex justify-content-start px-2" to={"/tc"}>
       <img src={logo} alt="logo" style={{height: "45px"}}/>
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation" style={{backgroundColor: "transparent", border: "none"}}>
@@ -83,7 +83,7 @@ const Sections = () => {
 
     <hr />
     <div className='d-flex justify-content-center'>
-    <button onClick={() => navigate(-1)} className='interiorBtn' style={{boxShadow: "5px 5px 0.6rem black"}}>Home</button>
+    <button onClick={() => navigate('/tc')} className='interiorBtn' style={{boxShadow: "5px 5px 0.6rem black"}}>Home</button>
     </div>
   </div>
 </main>

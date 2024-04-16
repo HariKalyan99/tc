@@ -129,7 +129,7 @@ const Ourworkers = () => {
         <div className="container-fluid ">
           <Link
             className="navbar-brand d-flex justify-content-start px-2"
-            to={"/"}
+            to={"/tc"}
           >
             <img src={logo} alt="logo" style={{ height: "45px" }} />
           </Link>
@@ -201,7 +201,7 @@ const Ourworkers = () => {
         </div>
             
             <div className="d-flex justify-content-center m-5">
-            <Link to={"/"}>
+            <Link to={"/tc"}>
       <button className='interiorBtn' style={{boxShadow: "10px 5px 0.6rem black"}}>
           Go to Home
         </button>

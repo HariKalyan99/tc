@@ -93,7 +93,7 @@ export default function SwiperSlider() {
   
         {swiperList.map((slide) => <SwiperSlide key={slide.image} onClick={() => handleSection(slide.heading)} >
           <div className="d-flex justify-content-center flex-column" >
-            <Link to={"/sections"}>
+            <Link to={"/tc/sections"}>
               <img
                 src={slide.image}
                 alt={slide.heading}
