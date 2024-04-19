@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logotc.png'
+import logo from '../assets/logotc.svg'
 
 // #4f4432 text active
 //#a99c70 hover

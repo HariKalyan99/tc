@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from '../assets/logotc.png'
+import logo from '../assets/logotc.svg'
 import { Image, Tooltip } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import p1 from '../assets/p (1).jpg'

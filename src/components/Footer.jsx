@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logotc.png'
+import logo from '../assets/logotc.svg'
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { BsFacebook } from "react-icons/bs";
 import { BsPinterest } from "react-icons/bs";
