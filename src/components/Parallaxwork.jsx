@@ -186,18 +186,6 @@ export default function Parallaxwork({ texts, screenHeight, contactTexts }) {
                 </div>
               </div> 
           </SwiperSlide>
-          <SwiperSlide className="swiper-slideParallax">
-             <div className="textParallax" data-swiper-parallax="-100">
-              <div>
-             <p className="fs-4"> <span className="fs-1"><MdLocationPin />{contactTexts[4].heading} </span> <br />{contactTexts[4].text}</p></div>
-              </div> 
-          </SwiperSlide>
-
-          <SwiperSlide className="swiper-slideParallax">
-          <div className="textParallax" data-swiper-parallax="-100">
-            <p className="fs-1">{contactTexts[5].heading}  {contactTexts[5].text}</p>
-             </div>
-          </SwiperSlide>
         </Swiper>
       </div>
     );

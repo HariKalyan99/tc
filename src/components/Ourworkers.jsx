@@ -16,13 +16,7 @@ import p11 from '../assets/p (11).jpg'
 import p12 from '../assets/p (12).jpg'
 import p13 from '../assets/p (13).jpg'
 import p14 from '../assets/p (14).jpg'
-import p15 from '../assets/p (15).jpg'
-import p16 from '../assets/p (16).jpg'
-import p17 from '../assets/p (17).jpg'
-import p18 from '../assets/p (18).jpg'
-import p19 from '../assets/p (19).jpg'
-import p20 from '../assets/p (20).jpg'
-import p21 from '../assets/p (21).jpg'
+
 import p22 from '../assets/p (22).jpg'
 import p23 from '../assets/p (23).jpg'
 import p24 from '../assets/p (24).jpg'
@@ -66,13 +60,7 @@ const Ourworkers = () => {
     {photo: p12},
     {photo: p13},
     {photo: p14},
-    {photo: p15},
-    {photo: p16},
-    {photo: p17},
-    {photo: p18},
-    {photo: p19},
-    {photo: p20},
-    {photo: p21},
+
     {photo: p22},
     {photo: p23},
     {photo: p24},
