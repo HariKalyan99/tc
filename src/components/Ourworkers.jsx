@@ -38,6 +38,7 @@ import p39 from '../assets/p (39).jpg'
 import p40 from '../assets/p (40).jpg'
 import p41 from '../assets/p (41).jpg'
 import p42 from '../assets/p (42).jpg'
+
 import Footer from "./Footer";
 
 
@@ -197,6 +198,8 @@ const Ourworkers = () => {
         </button>
       
             </div>
+
+            
       <Footer />
       </div>
     </div>

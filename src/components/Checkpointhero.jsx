@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import herocon3 from '../assets/herocon3.png'
+import herocon3 from '../assets/herocon3.svg'
 
 const Checkpointhero = () => {
     useEffect(() => {

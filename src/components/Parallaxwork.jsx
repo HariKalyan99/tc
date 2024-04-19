@@ -117,7 +117,7 @@ export default function Parallaxwork({ texts, screenHeight, contactTexts }) {
              <div className="textParallax" data-swiper-parallax="-100">
              <div>
              <p> <span className="fs-1">{contactTexts[1].heading} </span> <br />{contactTexts[1].text}</p>
-                <a href="mailto:makeartanhear8@gmail.com?cc=harikalyan91tron@gmail.com">
+                <a href="mailto:support@tronsconstructions.com?cc=makeartanhear8@gmail.com">
                   <button
                     className="interiorBtnModal"
                     style={{
@@ -150,7 +150,7 @@ export default function Parallaxwork({ texts, screenHeight, contactTexts }) {
                     <MdOutlinePhoneAndroid />
                   </button>
                 </a>
-                <a href="mailto:makeartanhear8@gmail.com?cc=harikalyan91tron@gmail.com">
+                <a href="mailto:support@tronsconstructions.com?cc=makeartanhear8@gmail.com">
                   <button
                     className="interiorBtnModal mx-2"
                     style={{
@@ -171,7 +171,7 @@ export default function Parallaxwork({ texts, screenHeight, contactTexts }) {
              <div className="textParallax" data-swiper-parallax="-100">
                 <div>
                 <p> <span className="fs-1">{contactTexts[3].heading} </span> <br />  {contactTexts[3].text}</p>
-                <a href="mailto:makeartanhear8@gmail.com?cc=harikalyan91tron@gmail.com">
+                <a href="mailto:support@tronsconstructions.com?cc=makeartanhear8@gmail.com">
                   <button
                     className="interiorBtnModal"
                     style={{

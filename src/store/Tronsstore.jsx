@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react"
-
+import vid from "../assets/vid2.gif"
 const sectionList = [{
   section: "Home Storages",
   hero: "https://images.squarespace-cdn.com/content/v1/59f8aec3e9bfdfccbc6a2395/1514295546968-WIMGW2KHIUR0LIVTI7YL/kw_RGIHOME_storage1_0023.jpg",
@@ -131,7 +131,7 @@ export const sectionStore = createContext({
 
 
 const TronsStoreContextProvider = ({children}) => {
-
+  const [loading, setLoading] = useState(true);
     
   const [secList, setSecList] = useState([])
 
@@ -143,6 +143,13 @@ const TronsStoreContextProvider = ({children}) => {
     setSectioning(subject)
   }
 
+
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000);
+  }, [])
   useEffect(() => {
     if(getSectioning){
       const newlist = sectionList.find(x => x.section === getSectioning)
@@ -151,9 +158,24 @@ const TronsStoreContextProvider = ({children}) => {
   }, [getSectioning])
     return (
         <sectionStore.Provider value={{handleSection, getSectioning, secList, interiorList}}>
-            {children}
+            {loading ? <div className="container py-4 mt-5" >
+        
+        <div
+          className="container-fluid py-5 mt-5"
+          style={{
+            backgroundImage:
+              `url(${vid})`,
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundColor: "white",
+            height: "600px",
+            backgroundSize: "400px"
+          }}
+        ></div>
+      </div> : children}
         </sectionStore.Provider>
     )
 }
 
 export default TronsStoreContextProvider;
+

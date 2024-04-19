@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import hero1 from "../assets/5.png";
 import hero2 from "../assets/66.jpg";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import herocon1 from '../assets/herocon.png'
-import herocon2 from '../assets/herocon2.png'
+import herocon1 from '../assets/herocon.svg'
+import herocon2 from '../assets/herocon2.svg'
 
 const Jumbotron = () => {
   const [read, setRead] = useState(false);

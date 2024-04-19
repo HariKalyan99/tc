@@ -26,7 +26,7 @@ const Footer = () => {
       <h1 className='fs-4'style={{textDecoration: "underline", color: "var(--background-color)"}}>Business Hours:</h1>
       <p className='fw-bold' style={{textDecoration: "underline", color: "var(--background-color)"}}>Monday - Friday: 9:00 AM - 5:00 PM (IST)</p>
 
-      <a href='https://www.instagram.com/' className='px-2'  target='_blank' style={{color: "black"}}><PiInstagramLogoFill size={30}/></a>
+      <a href='https://www.instagram.com/trons_constructions/' className='px-2'  target='_blank' style={{color: "black"}}><PiInstagramLogoFill size={30}/></a>
     <a href='https://www.facebook.com/' className='px-2'  target='_blank' style={{color: "black"}}><BsFacebook size={30}/></a>
     <a href='https://www.pinterest.com/' className='px-2'  target='_blank' style={{color: "black"}}><BsPinterest size={30}/></a>
     <a href='https://www.twitter.com/' className='px-2'  target='_blank' style={{color: "black"}}><BsTwitterX size={30}/></a>
