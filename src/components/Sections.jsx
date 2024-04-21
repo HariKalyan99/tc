@@ -29,7 +29,7 @@ const Sections = () => {
     // Unmount the window.onbeforeunload event
     return () => { window.onbeforeunload = null };
       
-    }, ["/sections"]);
+    }, ["/tc/sections"]);
 
 
     

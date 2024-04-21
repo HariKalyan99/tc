@@ -52,7 +52,7 @@ const Jumbotron = () => {
         </p>
       <hr />
       </div>
-      <div className='d-flex justify-content-center mt-2 mb-5' data-aos="flip-down"  data-aos-easing="ease-in-sine" data-aos-duration="800"  style={{height: "100%"}}>
+      <div className='d-flex justify-content-center mt-2 mb-5' data-aos="flip-down"  data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-once style={{height: "100%"}}>
         <div style={{width: "100%", height: "100%", backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
             <img src={hero1} alt="check-hero" style={{width: "100%", objectFit: "contain",position: "relative", zIndex: "-1"}} />
             <div style={{backgroundColor: "white", height: "100%", width: "20%", position: "absolute", zIndex: "5", top: 0, left: 0}}>
@@ -63,7 +63,7 @@ const Jumbotron = () => {
         </div>
     </div>
    
-    <div className='d-flex justify-content-center mt-5 mb-5' data-aos="fade"  data-aos-easing="ease-in-sine" data-aos-duration="1000"  style={{height: "100%"}}>
+    <div className='d-flex justify-content-center mt-5 mb-5' data-aos="flip-down"  data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-once style={{height: "100%"}}>
         <div style={{width: "100%", height: "100%", backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
             <img src={hero2} alt="check-hero" style={{width: "100%", objectFit: "contain",position: "relative", zIndex: "-1"}} />
             <div style={{backgroundColor: "white", height: "100%", width: "40%", position: "absolute", zIndex: "5", top: 0, right: 0}}>
@@ -71,12 +71,7 @@ const Jumbotron = () => {
             </div>
         </div>
     </div> 
-      {/* <main style={{ marginTop: "20px" }} id="aboutus" data-aos="fade-right"  data-aos-easing="ease-in-sine" data-aos-duration="800" data-aos-once='true'>
-          <img src={hero1} alt="hero"  style={{width: "100%"}}/>
-      </main>
-      <main style={{ marginTop: "50px" }} data-aos="fade-left"  data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-once='true'>
-          <img src={hero2} alt="hero"  style={{width: "100%"}}/>
-      </main> */}
+
     </>
   );
 };

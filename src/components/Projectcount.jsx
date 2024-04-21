@@ -58,6 +58,7 @@ const Projectcount = () => {
             </div>
         </div>
     </ScrollTrigger>
+    
   );
 };
 

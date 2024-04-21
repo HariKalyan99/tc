@@ -13,7 +13,7 @@ import "./Parallaxwork.css";
 import { Parallax, Pagination, Navigation, Autoplay } from "swiper/modules";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
-import { MdLocationPin } from "react-icons/md";
+import skyview from "../assets/int.gif";
 export default function Parallaxwork({ texts, screenHeight, contactTexts }) {
   if (screenHeight === "swiperSection") {
     return (

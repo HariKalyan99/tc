@@ -10,6 +10,18 @@ import Sections from './components/Sections.jsx';
 import PageNotFound from './components/PageNotFound.jsx';
 import Ourworkers from './components/Ourworkers.jsx';
 
+
+
+//for production
+// const router = createBrowserRouter([
+//   {path: "/tc", element: <App />, children: [
+//     {path: "/tc", element: <Dashboard />},
+//     {path: "/tc/sections", element: <Sections />},
+//     {path: "/tc/worker-gallery", element: <Ourworkers />},
+//     {path: "*", element: <PageNotFound />}
+//   ]}
+// ])
+
 const router = createBrowserRouter([
   {path: "/tc", element: <App />, children: [
     {path: "/tc", element: <Dashboard />},

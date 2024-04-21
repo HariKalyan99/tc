@@ -148,7 +148,7 @@ const TronsStoreContextProvider = ({children}) => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    }, 3000);
+    }, 3500);
   }, [])
   useEffect(() => {
     if(getSectioning){

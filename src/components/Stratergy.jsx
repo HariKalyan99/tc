@@ -1,12 +1,13 @@
 import React from "react";
 import Stratergymodal from "./Strtergymodal";
+import gif from "../assets/int.gif";
 
 const Stratergy = () => {
 
 
   return (
     <div>
-      <div className="container px-4 py-5" id="hanging-icons">
+      <div className="container-fluid px-4 py-5" id="hanging-icons">
         <h1
           className="pb-2 text-center"
           style={{ color: "white", textDecoration: "underline" }}
@@ -15,6 +16,42 @@ const Stratergy = () => {
           With a keen eye for detail and a commitment
         </h1>
         <hr />
+          <main className="videoDimensions">
+        <div
+          className="position-relative overflow-hidden text-center bg-body-light h-100"
+          style={{ backgroundColor: "rgba(0, 0, 0, 1)" }}
+        >
+          <img
+            src={gif}
+            alt="background"
+            style={{
+              width: "100%",
+              height: "100%",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              zIndex: "10",
+              opacity: "0.3",
+            }}
+          />
+          <div
+            className="col-md-6 p-lg-5 mx-auto mt-5"
+            style={{ position: "relative", zIndex: "100" }}
+          >
+            <h1
+              className="display-3 fw-lighter "
+              style={{ color: "var(--primary-color)" }}
+            >
+              With meticulous attention to detail
+            </h1>
+            <p className="fw-light fst-italic" style={{ color: "white" }}>
+            we ensure superior quality in every aspects.
+            </p>
+          </div>
+        </div>
+      </main>
+      <hr />
+      <div className="container">
         <div className="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div className="col d-flex align-items-start">
             <div className="icon-squarebg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -111,8 +148,12 @@ const Stratergy = () => {
             </div>
           </div>
         </div>
-          <hr />
+        </div>
+
+
+      <hr />
       </div>
+      
     </div>
   );
 };

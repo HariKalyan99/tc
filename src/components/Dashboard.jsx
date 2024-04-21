@@ -19,7 +19,7 @@ const Dashboard = () => {
         behavior: "smooth",
       });
     }, 100);
-  }, ["/"]);
+  }, ["/tc"]);
 
   const contactTexts = [
     {
@@ -27,15 +27,15 @@ const Dashboard = () => {
       heading: " ContactUs:",
     },
     {
-      text: "For general questions or information, please email us at contact@example.com, tap the button to get redirected to email below.",
+      text: "For general questions or information, please email us at support@tronsconstructions.com, tap the button to get redirected to email below.",
       heading: "General Inquires:",
     },
     {
-      text: "If you require assistance with an existing order, product, or service, our dedicated customer support team is here to help. Please email us at support@example.com or call us at +91-9148911954 during our business hours.",
+      text: "If you require assistance with an existing order, product, or service, our dedicated customer support team is here to help. Please email us at support@tronsconstructions.com or call us at +91-9148911954 during our business hours.",
       heading: "Customer Support:",
     },
     {
-      text: "Looking to join our team? To view current job openings and learn more about working with us or for inquiries related to employment/recruitment, please email us at careers@example.com.",
+      text: "Looking to join our team? To view current job openings and learn more about working with us or for inquiries related to employment/recruitment, please email us at support@tronsconstructions.com",
       heading: "Career Opportunities:",
     },
   ];
@@ -93,6 +93,7 @@ const Dashboard = () => {
       <Checkpointhero />
       <Stratergy />
       <Interiorstyle />
+      <hr />
       <Workgallery />
       <Parallaxwork
         texts={texts}
