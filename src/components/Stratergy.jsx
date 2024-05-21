@@ -13,7 +13,7 @@ const Stratergy = () => {
           style={{ color: "white", textDecoration: "underline" }}
           id="features"
         >
-          With a keen eye for detail and a commitment
+          keen eye for detail and a commitment
         </h1>
         <hr />
           <main className="videoDimensions">
@@ -44,7 +44,7 @@ const Stratergy = () => {
             >
               With meticulous attention to detail
             </h1>
-            <p className="fw-light fst-italic" style={{ color: "white" }}>
+            <p className="fw-light fst-italic d-none d-sm-block" style={{ color: "white" }}>
             we ensure superior quality in every aspects.
             </p>
           </div>

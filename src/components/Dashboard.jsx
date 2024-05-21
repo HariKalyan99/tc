@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import Jumbotron from "./Jumbotron";
 import Stratergy from "./Stratergy";
 import SwiperSlider from "./Swiperslider";
@@ -73,16 +73,16 @@ const Dashboard = () => {
             }}
           />
           <div
-            className="col-md-6 p-lg-5 mx-auto mt-5"
+            className="col-md-6 p-lg-5 mx-auto d-flex flex-column align-items-center justify-content-center h-100"
             style={{ position: "relative", zIndex: "100" }}
           >
             <h1
-              className="display-3 fw-lighter "
+              className="display-3 fw-lighter"
               style={{ color: "var(--primary-color)" }}
             >
-              Building Dreams, One Brick at a Time
+              Under construcution today, your dream home tomorrow.
             </h1>
-            <p className="fw-light fst-italic" style={{ color: "white" }}>
+            <p className="fw-light fst-italic d-none d-sm-block" style={{ color: "white" }}>
               Crafting Homes, Creating Memories
             </p>
           </div>

@@ -25,7 +25,7 @@
 
 
 .dashboard {
-  background: rgb(79,68,50);
+  background: rgb(61, 52, 37);
   
 }
 
@@ -76,7 +76,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color-hover); 
+  background: rgb(61, 52, 37); 
   height: 300px;
 }
 

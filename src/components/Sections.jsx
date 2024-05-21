@@ -1,10 +1,9 @@
-import React, { useContext, useEffect } from 'react'
+import { useContext, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Footer from './Footer'
 import Thumbsgallery from './Thumbsgallery'
 import Designprocess from './Designprocess'
 import logo from '../assets/logotc.svg'
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { sectionStore } from '../store/Tronsstore'
 
@@ -81,7 +80,6 @@ const Sections = () => {
     
     {secList.map((abt, ind) => <Designprocess key={ind} abt={abt}/>)}
 
-    <hr />
     <div className='d-flex justify-content-center'>
     <button onClick={() => navigate('/tc')} className='interiorBtn' style={{boxShadow: "5px 5px 0.6rem black"}}>Home</button>
     </div>

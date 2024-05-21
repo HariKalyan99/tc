@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../assets/logotc.svg'
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { BsFacebook } from "react-icons/bs";
@@ -21,12 +20,12 @@ const Footer = () => {
      <div className="col-12 col-md">
       <br />
       
-      <h1 className='fs-4' style={{textDecoration: "underline", color: "var(--background-color)"}}>Address:</h1>
-      <p className='fw-bold' style={{textDecoration: "underline", color: "var(--background-color)"}}>
+      <h1 className='fs-4' style={{textDecoration: "underline", color: "var(--primary-color)"}}>Address:</h1>
+      <p className='fw-bold' style={{textDecoration: "underline", color: "var(--primary-color)"}}>
       No. 1670/49 6th Main Cross, Kengeri stage 2, Kengeri Satellite Town Bengaluru - 560060
       </p>
-      <h1 className='fs-4'style={{textDecoration: "underline", color: "var(--background-color)"}}>Business Hours:</h1>
-      <p className='fw-bold' style={{textDecoration: "underline", color: "var(--background-color)"}}>Monday - Friday: 9:00 AM - 5:00 PM (IST)</p>
+      <h1 className='fs-4'style={{textDecoration: "underline", color: "var(--primary-color)"}}>Business Hours:</h1>
+      <p className='fw-bold' style={{textDecoration: "underline", color: "var(--primary-color)"}}>Monday - Friday: 9:00 AM - 5:00 PM (IST)</p>
 
       <a href='https://www.instagram.com/' className='px-2'  target='_blank' style={{color: "black"}}><PiInstagramLogoFill size={30}/></a>
     <a href='https://www.facebook.com/' className='px-2'  target='_blank' style={{color: "black"}}><BsFacebook size={30}/></a>
@@ -38,7 +37,7 @@ const Footer = () => {
         
         <a href="https://tronz-labs.vercel.app/" target='_blank' style={{color: "white", fontStyle: "italic"}}><img src={tllogo} alt="tronz-labs logo" height={50}/></a>
       </div>
-        <a href="https://tronz-labs.vercel.app/" target='_blank' style={{color: "white", fontStyle: "italic"}}>visit tronz_labs</a>
+        <a href="https://tronz-labs.vercel.app/" target='_blank' style={{color: "var(--primary-color)", fontStyle: "italic"}}>visit tronz_labs</a>
     </div> 
   
   </div>

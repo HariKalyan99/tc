@@ -1,6 +1,5 @@
 import { Tooltip } from "antd";
-import React from "react";
-import AOS from "aos";
+
 import "aos/dist/aos.css";
 import Projectcount from "./Projectcount";
 import pic1 from "../assets/p1.jpg";
@@ -133,7 +132,6 @@ const Workgallery = () => {
         </button>
       </Link>
       </div>
-      <hr />
     </div>
   );
 };
